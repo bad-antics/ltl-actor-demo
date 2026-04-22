@@ -1,0 +1,15 @@
+// ltl-actor-demo/main.ltl
+//
+// Actor model with mailboxes and supervision trees.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-actor-demo v0.1.0")
+    io::println("Actor model with mailboxes and supervision trees.")
+    0
+}
